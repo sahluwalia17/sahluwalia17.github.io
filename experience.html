@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sahil Ahluwalia</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Navigation -->
+<section>
+	<body>
+		<ul class = "navBar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Experience</a></li>
+			<li><a href="extracurriculars.html">Extracurriculars</a></li>
+			<li><a href="externalFiles/resume.pdf" target="_blank">Resume</a>/<li>
+		</ul>
+	</body>
+
+<section>
+	<h2 class="experience-align">ShiftLeft Software Engineer Intern (In Progress)</h2>
+	<img src="images/shiftleft.png" class = "sidepic-1" style = "float:left">
+		<p align = "justify" class = "exp-1">Description: Part of the Runtime Infrastructure Team<br><br>
+		Notable Aspects: <br>
+		- Usage of Docker: building images, running containers, and working with .yaml files <br>
+		- Worked heavily on Wildebeest, a Shiftleft application that performs end-to-end testing of its services, by adding more tests, testing features, resolving issues, and increasing optimization of application runtime <br>
+		- Other resources were the Github repository pipeline and the Dockerhub repositories<br>
+		- Monitored metrics through usage of Prometheus and our internal TSDB's</p>
+</section>
+
+<section>
+	<h2 class="experience-align">ShieldX Software Engineer Intern</h2>
+	<img src="images/shieldx.jpg" class = "sidepic-2" style = "float:right">
+		<p align = "justify" class = "exp-2">Description: Developed a command life interface in Python that allows the user to interact with the ShieldX API<br><br>
+		Notable Aspects:<br>
+		- Made of seven files: one file that outputs all information to the user; one file to store all the data that the user requests for; and five other files to interact with the API and retrieve information<br>
+		- Implemented login system that requires user to specify IP address, username, and password to access the CLI’s functions<br>
+		- Regular expressions were utilized in order for the user to have quick autocompletion of commands<br>
+		- Requests module was used to make GET, PUT, POST, and DELETE requests<br>
+		- JSON module was used to interpret data received from requests<br>
+		- ContextLib module was used to open/close connections to the API</p>
+</section>
+
+<section>
+	<h2 class="experience-align">WallDrop: Personal Project</h2>
+	<img src="images/walldrop.png" class = "sidepic-1" style = "float:left">
+		<p align = "justify" class = "exp-1">Description: Developed an executable application that prompts the user to login with their Spotify account, and returns a wallpaper made up of 18 of their top track's album covers. <br><br>
+
+		Notable Aspects:<br>
+		- With user authorization, the program makes requests to the Spotify API and we request 50 of their top tracks as to ensure no repeats<br>
+		- Parses the API response for the urls for 300 x 300 pixel pictures of the album cover of a specific track<br>
+		- Program automatically downloads all of the urls for the 18 unique songs and uses a module known as PIL to stich together all of the images<br>
+		- Wallpaper is downloaded to the directory in which the program is executed</p>
+</section>
+
+<section>
+	<h2 class="experience-align">NBA-CLI: Personal Project</h2>
+	<img src="images/nbacli.png" class = "sidepic-2" style = "float:right">
+		<p align = "justify" class = "exp-2">Description: Created the NBA CLI in Python that allows the user to check live scores, league standings, and boxscores for finished games from their computer’s terminal<br><br>
+
+		Notable Aspects:<br>
+		- Implemented the design approach of the ShieldX project (this code is made publicly available unlike the ShieldX CLI)<br>
+		- Features the BeautifulSoup4 module for lightweight parsing of an NBA stats website in which data was gathered from<br>
+		- Utilizes a module called py2exe in order to store entire Python file into a .exe file so user does not need Python to run</p>
+</section>
+
+<section>
+	<h2 class="experience-align">SpotCon: Personal Project</h2>
+	<img src="images/spotcon.jpg" class = "sidepic-1" style = "float:left">
+		<p align = "justify" class = "exp-1">Description: Developed the Spotcon Android app that requests a Spotify song link from the user, and returns an mp3 that can be downloaded to the user’s device<br><br>
+
+		Notable Aspects:<br>
+		- Android Programming using Android Studio<br>
+		- Usage of the Android package OkHttp to make requests to Spotify and an online API called YoutubeToMp3API<br>
+		- Algorithm: Parses Spotify link to retrieve song name -> uses song name to make a Youtube query and retrieve the video that most correlates with the song name -> sends Youtube link to YoutubeToMp3 API -> Downloads the video as an MP3</p>
+</section>
+
+</html>
