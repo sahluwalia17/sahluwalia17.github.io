@@ -6,7 +6,9 @@ html{
 }
 
 body{
-  background-color: #7dd0b6;
+  background-color: #87CEFA;
+  padding: 0;
+  margin: 0;
 }
 
 .navBar{
