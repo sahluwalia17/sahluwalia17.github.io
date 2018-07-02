@@ -2,13 +2,18 @@ html{
 	margin: 0;
 	padding: 0
 	height: 95%;
-	padding-bottom: 500px;
+	padding-bottom: 50px;
 }
 
 body{
   background-color: #87CEFA;
   padding: 0;
   margin: 0;
+}
+
+footer {
+  margin-bottom: 200px;
+  overflow: hidden;
 }
 
 .navBar{
@@ -139,5 +144,5 @@ h1 {
 .aboutme{
   padding-top: 50px;
   padding-right: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 75px;
 }
